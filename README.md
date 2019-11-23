@@ -27,16 +27,16 @@ Moreover, we will create high-quality Python code quickly by leveraging a coding
 	Heroku account
 
 	Option I: Python Anywhere
-	Python Anywhere: [https://www.pythonanywhere.com/](https://www.pythonanywhere.com/)
+	Python Anywhere: ![https://www.pythonanywhere.com/](https://www.pythonanywhere.com/)
 
 	Option II: Local
-	Homebrew:	[https://brew.sh/](https://brew.sh/)
+	Homebrew:	![https://brew.sh/](https://brew.sh/)
 	Git:		N/A
-	Python3		[https://evansdianga.com/install-pip-osx/](https://evansdianga.com/install-pip-osx/)
-	Pip3:		[https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py)
+	Python3		![https://evansdianga.com/install-pip-osx/](https://evansdianga.com/install-pip-osx/)
+	Pip3:		![https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 	VirtualEnv:	pip3 install virtualenv
-	Django:		[https://www.djangoproject.com/](https://www.djangoproject.com/)
-	* Two Scoops of Django: [Available on Amazon.com](https://www.amazon.com/Audrey-Roy-Greenfeld/e/B073YYQLNJ)
+	Django:		![https://www.djangoproject.com/](https://www.djangoproject.com/)
+	* Two Scoops of Django: ![Available on Amazon.com](https://www.amazon.com/Audrey-Roy-Greenfeld/e/B073YYQLNJ)
 
 	Option III: AWS
 	same as above, but on Ubuntu 16.04 LTS
@@ -45,8 +45,8 @@ Moreover, we will create high-quality Python code quickly by leveraging a coding
 
 
 ## setup project
-	- cookie cutter: [https://github.com/pydanny/cookiecutter-django](https://github.com/pydanny/cookiecutter-django)
-	- UI template: [https://github.com/ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella)
+	- cookie cutter: ![https://github.com/pydanny/cookiecutter-django](https://github.com/pydanny/cookiecutter-django)
+	- UI template: ![https://github.com/ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella)
 
 	* GO TO WORK!!
 
