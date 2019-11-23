@@ -29,7 +29,7 @@
 	Homebrew:	https://brew.sh/
 	Git:		N/A
 	Python3		https://evansdianga.com/install-pip-osx/
-	Pip3:		
+	Pip3:		https://bootstrap.pypa.io/get-pip.py
 	VirtualEnv:	pip3 install virtualenv
 	Django:		https://www.djangoproject.com/
 	* Two Scoops of Django: https://www.amazon.com/Audrey-Roy-Greenfeld/e/B073YYQLNJ
