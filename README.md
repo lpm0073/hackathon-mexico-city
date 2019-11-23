@@ -55,7 +55,7 @@ Heroku account
 | Python | [https://evansdianga.com/install-pip-osx/](https://evansdianga.com/install-pip-osx/) |
 | Pip | [https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py) |
 | VirtualEnv | pip3 install virtualenv |
-| Django | [https://www.djangoproject.com/](https://www.djangoproject.com/)
+| Django | pip install Django==2.2.7 
 
 * Two Scoops of Django: [Available on Amazon.com](https://www.amazon.com/Audrey-Roy-Greenfeld/e/B073YYQLNJ)
 
