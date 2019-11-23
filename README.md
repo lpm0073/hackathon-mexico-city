@@ -2,7 +2,7 @@
 
 
 ## review the project objective
-
+![Project objective](https://github.com/lpm0073/hackathon-mexico-city/raw/master/doc/desktop.jpg)
 ## review salient technology theory
 	- how does a web app work: browser side / server side
 	- browser: html, css, js, media
