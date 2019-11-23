@@ -26,19 +26,25 @@ VS Code
 Github account
 Heroku account
 
-Option I: Python Anywhere
-Python Anywhere: [https://www.pythonanywhere.com/](https://www.pythonanywhere.com/)
+### Option I: Python Anywhere
 
-Option II: Local
-Homebrew:	[https://brew.sh/](https://brew.sh/)
-Git:		N/A
-Python3		[https://evansdianga.com/install-pip-osx/](https://evansdianga.com/install-pip-osx/)
-Pip3:		[https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py)
-VirtualEnv:	pip3 install virtualenv
-Django:		[https://www.djangoproject.com/](https://www.djangoproject.com/)
+| Technology    | Source        |
+| ------------- |:-------------:|
+| Python Anywhere | [https://www.pythonanywhere.com/](https://www.pythonanywhere.com/) |
+
+### Option II: Local
+| Technology    | Source        |
+| ------------- |:-------------:|
+| Homebrew | [https://brew.sh/](https://brew.sh/) |
+| Git | N/A |
+| Python | [https://evansdianga.com/install-pip-osx/](https://evansdianga.com/install-pip-osx/) |
+| Pip | [https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py) |
+| VirtualEnv | pip3 install virtualenv |
+| Django | [https://www.djangoproject.com/](https://www.djangoproject.com/)
+
 * Two Scoops of Django: [Available on Amazon.com](https://www.amazon.com/Audrey-Roy-Greenfeld/e/B073YYQLNJ)
 
-Option III: AWS
+### Option III: AWS
 same as above, but on Ubuntu 16.04 LTS
 
 
