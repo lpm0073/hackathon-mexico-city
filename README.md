@@ -9,7 +9,7 @@ Moreover, we will create high-quality Python code quickly by leveraging a coding
 ![Project objective](https://github.com/lpm0073/hackathon-mexico-city/raw/master/doc/desktop.jpg)
 
 ## Technology Stack
-![Stack](https://github.com/lpm0073/hackathon-mexico-city/raw/master/doc/tech-stack.jpg)
+![Stack](https://github.com/lpm0073/hackathon-mexico-city/raw/master/doc/tech-stack.png)
 
 - how does a web app work: browser side / server side
 - browser: html, css, js, media
