@@ -9,9 +9,9 @@ Moreover, we will create high-quality Python code quickly by leveraging a coding
 ![Project objective](https://github.com/lpm0073/hackathon-mexico-city/raw/master/doc/desktop.jpg)
 
 ## Technology Stack
+#### Generic Web App
 ![Stack](https://github.com/lpm0073/hackathon-mexico-city/raw/master/doc/tech-stack.png)
 
-- how does a web app work: browser side / server side
 - browser: html, css, js, media
 	- html: content / structure
 	- css: appearance
@@ -23,6 +23,18 @@ Moreover, we will create high-quality Python code quickly by leveraging a coding
 	- mysql
 	- nginx
 	- python
+
+
+#### Django MVC (Model-View-Template aka "Model-View-Controller")
+![Django MVC](https://github.com/lpm0073/hackathon-mexico-city/raw/master/doc/django-mvc-diagram.png)
+
+Django helps us to quickly and elegantly resolve several difficult web development problems:
+- How to map URL routes to Python program code
+- How to convert Python code into HTML web pages
+- How to manage program parameters
+- How to make HTML web pages data-driven and dynamic
+
+
 
 ## setup local development environment
 VS Code
