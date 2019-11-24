@@ -70,58 +70,59 @@ same as above, but on Ubuntu 16.04 LTS
 - UI template: [https://github.com/ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella)
 - [Local Setup Notes](https://cookiecutter-django.readthedocs.io/en/latest/developing-locally.html)
 
+```
+#1. Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
 
-	#1. Create virtual environment
-	python3 -m venv venv
-	source venv/bin/activate
+#2. Postgres installation (optional):
+postgres -V
 
-	#2. Postgres installation (optional):
-	postgres -V
+# if you see a version response then try to login to psql
+psql postgres
 
-	# if you see a version response then try to login to psql
-	psql postgres
+# otherwise you need to install Postgres
+https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
+brew install postgresql
+brew postgresql-upgrade-database
+brew services start postgresql
 
-	# otherwise you need to install Postgres
-	https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
-	brew install postgresql
-	brew postgresql-upgrade-database
-	brew services start postgresql
+#Postgres log: /usr/local/var/log/postgres.log
 
-	#Postgres log: /usr/local/var/log/postgres.log
+# Create a Postgres user for your project
+psql postgres
+# to list existing users
+\du
 
-	# Create a Postgres user for your project
-	psql postgres
-	# to list existing users
-	\du
+CREATE ROLE hackathon WITH LOGIN PASSWORD 'hackathon'
 
-	CREATE ROLE hackathon WITH LOGIN PASSWORD 'hackathon'
+#3. create new project w cookie cutter
+pip install "cookiecutter>=1.4.0"
+cookiecutter https://github.com/pydanny/cookiecutter-django
 
-	#3. create new project w cookie cutter
-	pip install "cookiecutter>=1.4.0"
-	cookiecutter https://github.com/pydanny/cookiecutter-django
+#4. install Django
+cd hackathon
+pip install Django
+pip install -r requirements/local.txt
+pre-commit install
+createdb hackathon
+createdb hackathon -U postgres --password <password>
+ * if this is the first time a database is created on your machine you might need an initial PostgreSQL set up to allow local connections & set a password for the postgres user. The postgres documentation explains the syntax of the config file that you need to change.
 
-	#4. install Django
-	cd hackathon
-	pip install Django
-	pip install -r requirements/local.txt
-	pre-commit install
-	createdb hackathon
-	createdb hackathon -U postgres --password <password>
-	 * if this is the first time a database is created on your machine you might need an initial PostgreSQL set up to allow local connections & set a password for the postgres user. The postgres documentation explains the syntax of the config file that you need to change.
+# make necesary edits to hackathon/config/settings/local.py
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'hackathon',
+#        'USER': 'hackathon',
+#        'PASSWORD': 'hackathon',
+#        'HOST': '127.0.0.1',
+#        'PORT': '5432',
+#    }
+#}
 
-	# make necesary edits to hackathon/config/settings/local.py
-	#DATABASES = {
-	#    'default': {
-	#        'ENGINE': 'django.db.backends.postgresql',
-	#        'NAME': 'hackathon',
-	#        'USER': 'hackathon',
-	#        'PASSWORD': 'hackathon',
-	#        'HOST': '127.0.0.1',
-	#        'PORT': '5432',
-	#    }
-	#}
-
-	./manage.py makemigrations
+./manage.py makemigrations
+```
 
 
 * GO TO WORK!!
